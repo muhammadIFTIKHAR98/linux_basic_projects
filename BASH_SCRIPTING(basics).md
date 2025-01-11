@@ -1,15 +1,15 @@
 #BASIC OF BASH SCRIPTING.
 
-1. Running Bash commands from the command line
+1. Running Bash commands from the command line.
+   
       a) when the shell is used interactively, it desplays a "$" when it is waiting for command from the user.
-        for ex- 
-          user@user:-$ 
+        for ex- user@user:-$ 
           here user@user is the shell prompt.
       b) if the shell is running as the root(a user with administrative rights), the prompt is changed to "#". the super user shell prompt looks like this:
-        for ex-
-          [root@host ~]#
+        for ex- [root@host ~]#
 
-2. How to Create and Execute Bash scripts.
+3. How to Create and Execute Bash scripts.
+   
      a) Script naming convention
          bash scripting ends with ".sh". however bash script can run perfectly fine without the "sh" extension
 
@@ -33,6 +33,7 @@
               sh run_all.sh
               bash run_all.sh
               ./run_all.sh
+   
       
      
      
