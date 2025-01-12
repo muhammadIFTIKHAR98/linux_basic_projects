@@ -8,7 +8,7 @@
       b) if the shell is running as the root(a user with administrative rights), the prompt is changed to "#". the super user shell prompt looks like this:
         for ex- [root@host ~]#
 
-3. How to Create and Execute Bash scripts.
+2. How to Create and Execute Bash scripts.
    
      a) Script naming convention
          bash scripting ends with ".sh". however bash script can run perfectly fine without the "sh" extension
@@ -33,7 +33,9 @@
               sh run_all.sh
               bash run_all.sh
               ./run_all.sh
-4. 
+
+3. Bash Scripting basics
+    
       
      
      
