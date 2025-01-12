@@ -34,8 +34,36 @@
               bash run_all.sh
               ./run_all.sh
 
-3. Bash Scripting basics
-    
-      
+3. Bash Scripting Commands
+         Here is a list of some of the most commonly used bash commands:
+            cd: Change the directory to a different location.
+            ls: List the contents of the current directory.
+            mkdir: Create a new directory.
+            touch: Create a new file.
+            rm: Remove a file or directory.
+            cp: Copy a file or directory.
+            mv: Move or rename a file or directory.
+            echo: Print text to the terminal.
+            cat: Concatenate and print the contents of a file.
+            grep: Search for a pattern in a file.
+            chmod: Change the permissions of a file or directory.
+            sudo: Run a command with administrative privileges.
+            df: Display the amount of disk space available.
+            history: Show a list of previously executed commands.
+            ps: Display information about running processes.
+
+4. Conditional statements (if/else)
+
+   
+5. Looping and Branching in Bash
+   While loop
+   For loop
+   Case statements
+   
+6. How to Schedule Scripts using cron
+   
+7. How to Debug and Troubleshoot Bash Scripts
+
+
      
      
