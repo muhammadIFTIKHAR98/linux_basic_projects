@@ -82,10 +82,12 @@ Finally, we discussed automating the scripts using cron followed by some trouble
    
 6. Looping and Branching in Bash- 
    While loop
+
    For loop
+
    Case statements
    
-7. How to Schedule Scripts using cron-
+8. How to Schedule Scripts using cron-
 
    a) Cron is a powerful utility for job scheduling that is available in Unix-like operating systems.
    
@@ -93,46 +95,50 @@ Finally, we discussed automating the scripts using cron followed by some trouble
 
    c) the automation capabilities provided by cron play a crucial role in linux system administration.
 
-   d) Cron job example- 
-               * * * * * sh /path/to/script.sh    #Here, the *s represent minute(s) hour(s) day(s) month(s) weekday(s), respectively.
-
-   e) some example are as- 
-                  Schedule	   Description	                                             Example
-                  0 0	      Run a script at midnight every day	                     0 0 /path/to/script.sh
-                  /5	         Run a script every 5 minutes	                           /5 /path/to/script.sh
-                  0 6 1-5	   Run a script at 6 am from Monday to Friday	            0 6 1-5 /path/to/script.sh
-                  0 0 1-7	   Run a script on the first 7 days of every month	         0 0 1-7 /path/to/script.sh
-                  0 12 1	   Run a script on the first day of every month at noon	   0 12 1 /path/to/script.sh
-
-   f) Using Crontab- 
-               this Crontab utility is used to add and edit the cron jobs.
-               Crontab -l lists the already scheduled scripts for a particular user.
-               You can add and edit the cron through crontab -e. 
+   d) Cron job example-
    
-9. How to Debug and Troubleshoot Bash Scripts-
+      * * * * * sh /path/to/script.sh
+      #Here, the *s represent minute(s) hour(s) day(s) month(s) weekday(s), respectively.
+
+   e) some example are as-
+   
+      Schedule	   Description	                                             Example
+      0 0	      Run a script at midnight every day	                     0 0 /path/to/script.sh            
+      /5	         Run a script every 5 minutes	                           /5 /path/to/script.sh
+      0 6 1-5	   Run a script at 6 am from Monday to Friday	            0 6 1-5 /path/to/script.sh
+      0 0 1-7	   Run a script on the first 7 days of every month	         0 0 1-7 /path/to/script.sh
+      0 12 1	   Run a script on the first day of every month at noon	   0 12 1 /path/to/script.sh                  
+
+   f) Using Crontab-
+   
+      This Crontab utility is used to add and edit the cron jobs.
+      Crontab -l lists the already scheduled scripts for a particular user.
+      You can add and edit the cron through crontab -e. 
+   
+10. How to Debug and Troubleshoot Bash Scripts-
    
    Debugging and Troubleshooting are the essential skills for the Bash scripters.so, here are the some tips and techniques for the same.
    
-   a) Set the "set -x" option- 
+   a) Set the "set -x" option-  
       This is the one of the most useful technique for debugging Bash scripts, set the "set -x" option at the beginning of the script.
       This option enables debugging mode, which causes bash to print each command that it executes to the terminal, preceded by the + sign.
       this can be very helpful in identifying where errors are occuring in your script.
    
-   b) Check the exit code- 
+   b) Check the exit code-  
       When Bash encounters an error, it sets an exit code that indicates the nature of the error.
       You can check the exit code of the most recent command using the $? variable.
       A value of 0 indicates success, while any other value indicates an error.
    
-   c) Use "Echo" statements- 
+   c) Use "Echo" statements-  
       Another useful technique for debugging Bash scripts is to insert "Echo" statements throughout your code.
       This can help you identify where errors are occurring and what values are being passed to variables.
 
-   d) Use the "set -e" option- 
+   d) Use the "set -e" option-  
       If you want your script to exit immediately when any command in the script fails, you can use the set -e option.
       This option will cause Bash to exit with an error if any command in the script fails, making it easier to identify and fix errors in your script.
       this option will come at the beginning of the script.
    
-   e) Troubleshooting crons by veryfing logs- 
+   e) Troubleshooting crons by veryfing logs-  
       We can troubleshoot crons using the log files. Logs are maintained for all the scheduled jobs.
       You can check and verify in logs if a specific job ran as intended or not.
          For Ubuntu/Debian, you can find cronlogs at: "/var/log/syslog"
