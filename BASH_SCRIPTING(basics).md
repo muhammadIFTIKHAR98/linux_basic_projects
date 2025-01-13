@@ -42,8 +42,9 @@ Finally, we discussed automating the scripts using cron followed by some trouble
               bash run_all.sh
               ./run_all.sh
 
-3. Bash Scripting Commands- 
-         Here is a list of some of the most commonly used bash commands:
+3. Bash Scripting Commands
+   
+   Here is a list of some of the most commonly used bash commands:
             cd: Change the directory to a different location.
             ls: List the contents of the current directory.
             mkdir: Create a new directory.
@@ -88,6 +89,7 @@ Finally, we discussed automating the scripts using cron followed by some trouble
                You can add and edit the cron through crontab -e. 
    
 8. How to Debug and Troubleshoot Bash Scripts-
+   
    Debugging and Troubleshooting are the essential skills for the Bash scripters.so, here are the some tips and techniques for the same.
    
    a) Set the "set -x" option
