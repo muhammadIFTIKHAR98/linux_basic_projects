@@ -1,11 +1,12 @@
-#BASIC OF BASH SCRIPTING.
+# BASIC OF BASH SCRIPTING.
 
-#Summary 
+# Summary 
+
 In this article, we started with how to access the terminal and then ran some basic bash commands. 
 We also studied what a bash shell is. We briefly looked at branching the code using loops and conditionals. 
 Finally, we discussed automating the scripts using cron followed by some troubleshooting techniques.
 
-#There are 8 Points here, which will help to get a clear picture of Bash Scripting.
+# There are 8 Points here, which will help to get a clear picture of Bash Scripting.
 
 1. Running Bash commands from the command line- 
    
@@ -59,15 +60,15 @@ Finally, we discussed automating the scripts using cron followed by some trouble
             history: Show a list of previously executed commands.
             ps: Display information about running processes.
 
-4. Conditional statements (if/else)- 
+5. Conditional statements (if/else)- 
          
    
-5. Looping and Branching in Bash- 
+6. Looping and Branching in Bash- 
    While loop
    For loop
    Case statements
    
-6. How to Schedule Scripts using cron-
+7. How to Schedule Scripts using cron-
 
    a) Cron is a powerful utility for job scheduling that is available in Unix-like operating systems.
    b) By configuring Cron, you can setup automated jobs to run on a daily, weekly, monthly, or specific time basis.
@@ -87,8 +88,8 @@ Finally, we discussed automating the scripts using cron followed by some trouble
                You can add and edit the cron through crontab -e. 
    
 8. How to Debug and Troubleshoot Bash Scripts-
-   
    Debugging and Troubleshooting are the essential skills for the Bash scripters.so, here are the some tips and techniques for the same.
+   
    a) Set the "set -x" option
       This is the one of the most useful technique for debugging Bash scripts, set the "set -x" option at the beginning of the script.
       This option enables debugging mode, which causes bash to print each command that it executes to the terminal, preceded by the + sign.
