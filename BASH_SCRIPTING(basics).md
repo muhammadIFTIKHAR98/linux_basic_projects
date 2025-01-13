@@ -46,35 +46,35 @@ Finally, we discussed automating the scripts using cron followed by some trouble
    
    Here is a list of some of the most commonly used bash commands:
    
-      cd: Change the directory to a different location.
+      # cd: Change the directory to a different location.
    
-      ls: List the contents of the current directory.
+      # ls: List the contents of the current directory.
 
-      mkdir: Create a new directory.
+      # mkdir: Create a new directory.
 
-      touch: Create a new file.
+      # touch: Create a new file.
 
-      rm: Remove a file or directory.
+      # rm: Remove a file or directory.
 
-      cp: Copy a file or directory.
+      # cp: Copy a file or directory.
 
-      mv: Move or rename a file or directory.
+      # mv: Move or rename a file or directory.
 
-      echo: Print text to the terminal.
+      # echo: Print text to the terminal.
 
-      cat: Concatenate and print the contents of a file.
+      # cat: Concatenate and print the contents of a file.
 
-      grep: Search for a pattern in a file.
+      # grep: Search for a pattern in a file.
 
-      chmod: Change the permissions of a file or directory.
+      # chmod: Change the permissions of a file or directory.
 
-      sudo: Run a command with administrative privileges.
+      # sudo: Run a command with administrative privileges.
 
-      df: Display the amount of disk space available.
+      # df: Display the amount of disk space available.
 
-      history: Show a list of previously executed commands.
+      # history: Show a list of previously executed commands.
 
-      ps: Display information about running processes.
+      # ps: Display information about running processes.
 
 5. Conditional statements (if/else)- 
          
