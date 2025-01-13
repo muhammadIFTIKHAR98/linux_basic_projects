@@ -1,6 +1,13 @@
 #BASIC OF BASH SCRIPTING.
 
-1. Running Bash commands from the command line.
+#Summary 
+In this article, we started with how to access the terminal and then ran some basic bash commands. 
+We also studied what a bash shell is. We briefly looked at branching the code using loops and conditionals. 
+Finally, we discussed automating the scripts using cron followed by some troubleshooting techniques.
+
+#There are 8 Points here, which will help to get a clear picture of Bash Scripting.
+
+1. Running Bash commands from the command line- 
    
       a) when the shell is used interactively, it desplays a "$" when it is waiting for command from the user.
         for ex- user@user:-$ 
@@ -8,7 +15,7 @@
       b) if the shell is running as the root(a user with administrative rights), the prompt is changed to "#". the super user shell prompt looks like this:
         for ex- [root@host ~]#
 
-2. How to Create and Execute Bash scripts.
+2. How to Create and Execute Bash scripts- 
    
      a) Script naming convention
          bash scripting ends with ".sh". however bash script can run perfectly fine without the "sh" extension
@@ -34,7 +41,7 @@
               bash run_all.sh
               ./run_all.sh
 
-3. Bash Scripting Commands
+3. Bash Scripting Commands- 
          Here is a list of some of the most commonly used bash commands:
             cd: Change the directory to a different location.
             ls: List the contents of the current directory.
@@ -52,15 +59,16 @@
             history: Show a list of previously executed commands.
             ps: Display information about running processes.
 
-4. Conditional statements (if/else)
+4. Conditional statements (if/else)- 
          
    
-5. Looping and Branching in Bash
+5. Looping and Branching in Bash- 
    While loop
    For loop
    Case statements
    
-6. How to Schedule Scripts using cron.
+6. How to Schedule Scripts using cron-
+
    a) Cron is a powerful utility for job scheduling that is available in Unix-like operating systems.
    b) By configuring Cron, you can setup automated jobs to run on a daily, weekly, monthly, or specific time basis.
    c) the automation capabilities provided by cron play a crucial role in linux system administration.
@@ -78,9 +86,35 @@
                Crontab -l lists the already scheduled scripts for a particular user.
                You can add and edit the cron through crontab -e. 
    
-8. How to Debug and Troubleshoot Bash Scripts.
+8. How to Debug and Troubleshoot Bash Scripts-
    
+   Debugging and Troubleshooting are the essential skills for the Bash scripters.so, here are the some tips and techniques for the same.
+   a) Set the "set -x" option
+      This is the one of the most useful technique for debugging Bash scripts, set the "set -x" option at the beginning of the script.
+      This option enables debugging mode, which causes bash to print each command that it executes to the terminal, preceded by the + sign.
+      this can be very helpful in identifying where errors are occuring in your script.
+   
+   b) Check the exit code
+      When Bash encounters an error, it sets an exit code that indicates the nature of the error.
+      You can check the exit code of the most recent command using the $? variable.
+      A value of 0 indicates success, while any other value indicates an error.
+   
+   c) Use "Echo" statements
+      Another useful technique for debugging Bash scripts is to insert "Echo" statements throughout your code.
+      This can help you identify where errors are occurring and what values are being passed to variables.
 
+   d) Use the "set -e" option
+      If you want your script to exit immediately when any command in the script fails, you can use the set -e option.
+      This option will cause Bash to exit with an error if any command in the script fails, making it easier to identify and fix errors in your script.
+      this option will come at the beginning of the script.
+   
+   e) Troubleshooting crons by veryfing logs
+      We can troubleshoot crons using the log files. Logs are maintained for all the scheduled jobs.
+      You can check and verify in logs if a specific job ran as intended or not.
+         For Ubuntu/Debian, you can find cronlogs at: "/var/log/syslog"
+      The location varies for other distributions.
+   
+   
 
      
      
