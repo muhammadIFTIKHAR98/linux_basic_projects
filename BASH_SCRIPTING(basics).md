@@ -47,7 +47,6 @@ Finally, we discussed automating the scripts using cron followed by some trouble
    Here is a list of some of the most commonly used bash commands:
    
       # cd: Change the directory to a different location.
-   
       # ls: List the contents of the current directory.
 
       # mkdir: Create a new directory.
