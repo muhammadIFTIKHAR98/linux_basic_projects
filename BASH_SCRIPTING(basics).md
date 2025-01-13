@@ -53,7 +53,7 @@
             ps: Display information about running processes.
 
 4. Conditional statements (if/else)
-
+         
    
 5. Looping and Branching in Bash
    While loop
@@ -61,8 +61,25 @@
    Case statements
    
 6. How to Schedule Scripts using cron
+         a) Cron is a powerful utility for job scheduling that is available in Unix-like operating systems.
+         b) By configuring Cron, you can setup automated jobs to run on a daily, weekly, monthly, or specific time basis.
+         c) the automation capabilities provided by cron play a crucial role in linux system administration.
+         d) Cron job example
+               * * * * * sh /path/to/script.sh    #Here, the *s represent minute(s) hour(s) day(s) month(s) weekday(s), respectively.
+         e) some example are as-
+                  Schedule	   Description	                                             Example
+                  0 0	      Run a script at midnight every day	                     0 0 /path/to/script.sh
+                  /5	         Run a script every 5 minutes	                           /5 /path/to/script.sh
+                  0 6 1-5	   Run a script at 6 am from Monday to Friday	            0 6 1-5 /path/to/script.sh
+                  0 0 1-7	   Run a script on the first 7 days of every month	         0 0 1-7 /path/to/script.sh
+                  0 12 1	   Run a script on the first day of every month at noon	   0 12 1 /path/to/script.sh
+         f) Using Crontab
+               this Crontab utility is used to add and edit the cron jobs.
+               Crontab -l lists the already scheduled scripts for a particular user.
+               You can add and edit the cron through crontab -e. 
    
-7. How to Debug and Troubleshoot Bash Scripts
+8. How to Debug and Troubleshoot Bash Scripts.
+   
 
 
      
