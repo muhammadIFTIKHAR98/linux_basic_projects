@@ -38,8 +38,10 @@ Finally, we discussed automating the scripts using cron followed by some trouble
               chmod modifies the ownership of a file for the current user :u.
               +x adds the execution rights to the current user. This means that the user who is the owner can now run the script.
               run_all.sh is the file we wish to run.
-          you can run the script using any of the mentioned methods:
-              sh run_all.sh              bash run_all.sh              ./run_all.sh
+          you can run the script using any of the mentioned methods: 
+          sh run_all.sh   
+          bash run_all.sh
+          ./run_all.sh
 
 ## 3. Bash Scripting Commands:
    Here is a list of some of the most commonly used bash commands:
