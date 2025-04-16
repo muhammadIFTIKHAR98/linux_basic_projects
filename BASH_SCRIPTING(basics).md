@@ -8,7 +8,7 @@ Finally, we discussed automating the scripts using cron followed by some trouble
 
 # There are 8 Points here, which will help to get a clear picture of Bash Scripting.
 
-##1. Running Bash commands from the command line- 
+#1. Running Bash commands from the command line- 
    
    a) when the shell is used interactively, it desplays a "$" when it is waiting for command from the user.
         for ex- user@user:-$ 
