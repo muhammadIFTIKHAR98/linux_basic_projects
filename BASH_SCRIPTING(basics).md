@@ -6,9 +6,9 @@ In this article, we started with how to access the terminal and then ran some ba
 We also studied what a bash shell is. We briefly looked at branching the code using loops and conditionals. 
 Finally, we discussed automating the scripts using cron followed by some troubleshooting techniques.
 
-# There are 8 Points here, which will help to get a clear picture of Bash Scripting.
+# There are 7 Points here, which will help to get a clear picture of Bash Scripting.
 
-1. Running Bash commands from the command line- 
+## 1. Running Bash commands from the command line- 
    
    a) when the shell is used interactively, it desplays a "$" when it is waiting for command from the user.
         for ex- user@user:-$ 
@@ -17,7 +17,7 @@ Finally, we discussed automating the scripts using cron followed by some trouble
    b) if the shell is running as the root(a user with administrative rights), the prompt is changed to "#". the super user shell prompt looks like this:
         for ex- [root@host ~]#
 
-##2. How to Create and Execute Bash scripts- 
+# 2. How to Create and Execute Bash scripts- 
    
    a) Script naming convention- 
          bash scripting ends with ".sh". however bash script can run perfectly fine without the "sh" extension
@@ -43,7 +43,7 @@ Finally, we discussed automating the scripts using cron followed by some trouble
               bash run_all.sh
               ./run_all.sh
 
-##3. Bash Scripting Commands:
+# 3. Bash Scripting Commands:
    Here is a list of some of the most commonly used bash commands:
          cd: Change the directory to a different location.
          ls: List the contents of the current directory.
@@ -61,14 +61,14 @@ Finally, we discussed automating the scripts using cron followed by some trouble
          history: Show a list of previously executed commands.
          ps: Display information about running processes.
 
-##4. Conditional statements (if/else)- 
+# 4. Conditional statements (if/else)- 
          
    
-##5. Looping and Branching in Bash- 
+# 5. Looping and Branching in Bash- 
    
    While loop  | For loop | Case statements
    
-##6. How to Schedule Scripts using cron-
+# 6. How to Schedule Scripts using cron-
 
    a) Cron is a powerful utility for job scheduling that is available in Unix-like operating systems.
    b) By configuring Cron, you can setup automated jobs to run on a daily, weekly, monthly, or specific time basis.
@@ -90,7 +90,7 @@ Finally, we discussed automating the scripts using cron followed by some trouble
       Crontab -l lists the already scheduled scripts for a particular user.
       You can add and edit the cron through crontab -e. 
    
-##7. How to Debug and Troubleshoot Bash Scripts-
+# 7. How to Debug and Troubleshoot Bash Scripts-
    Debugging and Troubleshooting are the essential skills for the Bash scripters.so, here are the some tips and techniques for the same.
    
    a) Set the "set -x" option-  
