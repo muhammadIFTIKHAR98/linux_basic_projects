@@ -6,7 +6,7 @@ nano disk_monitor
 # now we will write the code in nano editor
 
 
-#!/bin/bash
+#!/bin/bash  (this is known as the shebang, it is to tell the linux that this script will run from Bourne Again SHell (BASH))
 
 #disk usage monitoring script
 
